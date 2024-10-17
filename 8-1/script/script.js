@@ -12,7 +12,7 @@ const imageThumbnail = Vue.component('image-thumbnail', {
       @click="$emit('clickimage')"
     ></div>`
 });
-
+ 
 const modal = Vue.component('modal', {
   props: {
     isShown: {
@@ -37,7 +37,7 @@ const modal = Vue.component('modal', {
       />
     </div>`
 });
-
+ 
 const app = new Vue({
   el: '#app',
   components: {
